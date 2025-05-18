@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>自主制作映画サイト - レトロ風</title>
+  <style>
+    body {
+      background-color: #C0D9D9;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #000080;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      border: 5px double #000080;
+    }
+    h1 {
+      font-size: 48px;
+      color: #FF4500;
+      text-shadow: 2px 2px 0 #FFD700;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 24px;
+      color: #006400;
+      margin-top: 0;
+    }
+    .marquee {
+      margin-top: 20px;
+      background-color: #FFFACD;
+      border: 3px dashed #FF0000;
+      padding: 10px;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      font-weight: bold;
+      animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee {
+      0% {transform: translateX(100%);}
+      100% {transform: translateX(-100%);}
+    }
+    a {
+      color: #0000EE;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>自主制作映画、制作予定！</h1>
+  <p>役者＆裏方など、募集中！</p>
+  
+  <div class="marquee">出演希望者・スタッフ募集中！みんな集まれ〜！</div>
+  
+  <p><a href="mailto:contact@yourmail.com">お問い合わせはこちら</a></p>
+  
+  <hr style="border: 2px dotted #000080; width: 60%; margin: 30px auto;">
+  
+  <p style="font-size: 14px;">© 2003 自主制作映画サイト All Rights Reserved.</p>
+</body>
+</html>
